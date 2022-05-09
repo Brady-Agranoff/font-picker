@@ -1,0 +1,40 @@
+.font-picker-display-value {
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 1.25rem;
+	font-weight: normal;
+	padding: 0.5rem 1rem;
+	color: black;
+}
+
+.font-picker-options {
+	position: absolute;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 10px;
+	background-color: white;
+	padding: 0.75rem 0rem;
+	max-height: 20rem;
+	overflow: scroll;
+}
+
+.font-picker-container {
+	position: relative;
+}
+
+.font-picker-option {
+	display: block;
+	background-color: white;
+	padding: 0.5rem;
+	width: 100%;
+	cursor: pointer;
+	font-size: 1.25rem;
+	color: black;
+	font-weight: normal;
+}
+
+.font-picker-option:hover {
+	background-color: #f0f0f0;
+}
